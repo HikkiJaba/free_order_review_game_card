@@ -1,0 +1,243 @@
+@font-face {
+	font-family: "Comfortaa";
+	src: url("fonts/Comfortaa-Light.woff2") format('woff2'),
+         url("fonts/Comfortaa-Light.woff") format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+
+* {
+    color: white;
+    font-family: "Comfortaa";
+}
+
+body {
+    background-color: #202028;
+    background: #202028;
+}
+
+
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 120px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    width: 94%
+}
+
+.title {
+    width: 300px;
+}
+
+.search-bar {
+    background-color: #2b2b33;
+    border-radius: 40px;
+    display: inline-flex;
+    width: 280px;
+    height: 50px;
+}
+
+.search-bar-icon img{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.search-bar input {
+    background-color: #2b2b33;
+    border: 230px;
+    height: 45px;
+}
+
+.search-bar form {
+    display: block;
+}
+
+.status-bar {
+    padding: 10px 15px 10px 15px;
+    margin: 0 50px 0 50px;
+    border: 1px solid #5559ab;
+    border-radius: 15px;
+    width: 380px;
+    height: 30px;
+    display: inline-flex;
+}
+
+.vip, .tarif, .time {
+    height: 16px;
+    margin-top: 4px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.status-bar img {
+    height: 30px;
+    margin-left: 10px;
+}
+
+.separator {
+    color: #2f304c;
+    width: 0px;
+    border: 1px solid #2f304c;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.account {
+    background-color: #252733;
+    display: inline-flex;
+    height: 50px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+.account-icon {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.account-name {
+    background-color: #252733;
+    height: 16px;
+    border: none;
+    margin-top: 17px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.account-icon, .account-name {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.sidebar {
+    margin-right: 30px;
+    justify-content: center;
+    background-color: #252733;
+    width: 50px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left:0;
+    padding: 10px 30px 0px 20px;
+}
+
+.sidebar-icon {
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+    margin-bottom: 50px;
+}
+
+.sidebar-button img {
+    width:30px;
+    height: 30px;    
+}
+
+.sidebar-button {
+    border-radius: 10px;
+    padding: 0;
+    background-color: #30323e;
+    border: none;
+    width:50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.sidebar-button:hover {
+    background-color: #7c62ff;
+}
+
+.version-info {
+    display: grid;
+    margin-top: 38em;
+    align-items: center;
+}
+
+.beta-version {
+    align-content: center;
+    background-color: #2d2d47;
+    border-radius: 3px; 
+    color: #6a55d5;
+    padding-left: 10px;
+}
+
+.container {
+    margin-left: 120px;
+    margin-top: 120px;
+}
+
+.title {
+    height: 80px;
+    display: flex;
+}
+
+.title img {
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.block {
+    display: block;
+    margin: 0;
+    /* border: 3px solid green; */
+}
+
+.block button {
+    background-color: #202028;
+    border:none;
+}
+
+.info-container {
+    display: inline-flex;
+    height:30px;
+    margin: 0;
+}
+
+.info-container p {
+    font-size: 12px;
+    margin:0;
+    margin-right: 5px;
+}
+
+.age-restriction{
+    background-color: #252531;
+    border-radius: 15px;
+    height: 25px;
+    width: 40px;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.age-restriction p {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.free-start {
+    background-color: #afff60;
+    border-radius: 20px;
+}
+
+.free-start p{
+    margin-left: 7px;
+    margin-top: 7px;
+    color: black;
+}
